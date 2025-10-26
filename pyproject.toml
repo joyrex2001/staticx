@@ -48,6 +48,7 @@ changelog = "https://github.com/JonathonReinhart/staticx/blob/main/CHANGELOG.md"
 # from an sdist or from Github.
 requires = [
     "wheel",
+    "scons",
     "setuptools >= 77.0.0",
     # TODO(#264): Remove when Python 3.7 support is removed.
     "importlib_metadata; python_version<'3.8'",
